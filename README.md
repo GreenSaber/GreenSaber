@@ -1,16 +1,45 @@
-## Hi there 👋
+# Hi, I'm Artem 👋
 
-<!--
-**GreenSaber/GreenSaber** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Java backend developer (Spring), also working with Kotlin.
 
-Here are some ideas to get you started:
+## Tech stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Languages:** Java, Kotlin
+
+**Backend:** Spring, Spring Boot
+
+**Mobile:** Android (Kotlin)
+
+## Projects
+
+Source code of my projects is private. Happy to walk through it on request.
+
+### Decision Shake
+
+Android app that helps you make a random decision: just shake the device.
+
+**Stack:** Android, Java
+
+**Google Play:** https://play.google.com/store/apps/details?id=com.saber.green.decisionshake
+
+### MemoMania
+
+"12 Tiles" - a memory training game for Android.
+
+**Stack:** Android, Kotlin
+
+**Google Play:** https://play.google.com/store/apps/details?id=com.saber.green.memomania
+
+### Telegram Reply Bot
+
+A "reply for me" Telegram bot. Forward it one or more messages from a conversation partner and it drafts a reply in your voice using Claude. Messages forwarded in a row are batched with a debounce (3 seconds of silence by default) and get a single combined reply.
+
+**Stack:** Kotlin, Spring Boot, JDK 25, TelegramBots (long polling), Anthropic Java SDK
+
+**Deployment:** Docker Compose on a VPS
+
+**Access control:** allowlist of Telegram user IDs
+
+## Contact
+
+You can reach me via GitHub.
