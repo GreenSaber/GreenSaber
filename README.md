@@ -14,13 +14,11 @@ Java backend developer (Spring), also working with Kotlin.
 
 Source code of my projects is private. Happy to walk through it on request.
 
-### Decision Shake
+### Telegram Reply Bot
 
-Android app that helps you make a random decision: just shake the device.
+A Telegram bot that replies to forwarded messages.
 
-**Stack:** Android, Java
-
-**Google Play:** https://play.google.com/store/apps/details?id=com.saber.green.decisionshake
+**Stack:** Kotlin, Spring Boot
 
 ### MemoMania
 
@@ -30,15 +28,13 @@ Android app that helps you make a random decision: just shake the device.
 
 **Google Play:** https://play.google.com/store/apps/details?id=com.saber.green.memomania
 
-### Telegram Reply Bot
+### Decision Shake
 
-A "reply for me" Telegram bot. Forward it one or more messages from a conversation partner and it drafts a reply in your voice using Claude. Messages forwarded in a row are batched with a debounce (3 seconds of silence by default) and get a single combined reply.
+Android app that helps you make a random decision: just shake the device.
 
-**Stack:** Kotlin, Spring Boot, JDK 25, TelegramBots (long polling), Anthropic Java SDK
+**Stack:** Android, Java
 
-**Deployment:** Docker Compose on a VPS
-
-**Access control:** allowlist of Telegram user IDs
+**Google Play:** https://play.google.com/store/apps/details?id=com.saber.green.decisionshake
 
 ## Contact
 
